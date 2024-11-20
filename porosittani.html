@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari i të Dhënave</title>
+</head>
+<body>
+    <center>
+        <img src="foto/foto.jpg" width="1000" height="400">
+    </center>
+    <hr line color="008dd3" size="5" width="1000">
+<center>
+    <h2>Ju lutem plotesoni te dhenat</h2>
+    <form action="#" method="post">
+        <label for="emri">Emri:</label><br>
+        <input type="text" id="emri" name="emri" required><br><br>
+
+        <label for="mbiemri">Mbiemri:</label><br>
+        <input type="text" id="mbiemri" name="mbiemri" required><br><br>
+
+        <label for="adresa">Adresa:</label><br>
+        <input type="text" id="adresa" name="adresa" required><br><br>
+
+        <label for="telefoni">Numri i Telefonit:</label><br>
+        <input type="tel" id="telefoni" name="telefoni" pattern="[0-9]{9}" placeholder="123456789" required><br><br>
+
+        <label for="vendi">Vendi:</label><br>
+        <select id="vendi" name="vendi" required>
+            <option value="0"></option>
+            <option value="Kamenica">Kamenica</option>
+            <option value="Prishtina">Prishtina</option>
+            <option value="Lipjani">Lipjani</option>
+            <option value="Ferizaji">Ferizaji</option>
+            <option value="Peja">Peja</option>
+            <option value="Gjilani">Gjilani</option>
+            <option value="Prizereni">Prizereni</option>
+            <option value="Fushe_kosova">Fushë Kosova</option>
+        </select><br><br>
+
+        <label for="kartela">Numri i Kartelës Bankare:</label><br>
+        <input type="text" id="kartela" name="kartela" pattern="[0-9]{16}" placeholder="1234 5678 9012 3456" required><br><br>
+
+        <input type="submit" value="Dërgo">
+    </form>
+</center>
+</body>
+</html>
+
